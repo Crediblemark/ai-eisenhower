@@ -7,6 +7,10 @@ import { resolve } from 'path';
 export default defineConfig({
   root: './',
   base: './',
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true
+  },
   plugins: [
     react(),
     VitePWA({
@@ -79,16 +83,6 @@ export default defineConfig({
       }
     })
   ],
-  build: {
-    outDir: 'www',
-    assetsInlineLimit: 0,
-    rollupOptions: {
-      input: {
-        main: './index.html',
-        offline: './public/offline.html'
-      }
-    },
-  },
   resolve: {
     alias: {
       '@': resolve(__dirname, './src')

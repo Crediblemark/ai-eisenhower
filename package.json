@@ -7,15 +7,18 @@
   "scripts": {
     "dev": "vite",
     "type-check": "tsc --noEmit",
-    "build:web": "npm run type-check && vite build",
+    "build": "vite build",
     "preview": "vite preview",
-    "build": "npm run build:web"
+    "vercel-build": "vite build"
   },
   "dependencies": {
     "@google/genai": "^1.0.1",
     "@google/generative-ai": "^0.24.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.21",
