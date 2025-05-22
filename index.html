@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <base href="/" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="description" content="AI-powered Eisenhower Matrix for effective task prioritization">
     <title>AI Eisenhower Matrix</title>
     
     <!-- PWA Configuration -->
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="theme-color" content="#0ea5e9" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="EisenhowerAI">
     <meta name="apple-mobile-web-app-status-bar" content="#0ea5e9">
-    <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="EisenhowerAI">
     
     <!-- Icons -->
@@ -25,17 +25,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" crossorigin="anonymous">
     
-
     <style>
       body {
         font-family: 'Inter', sans-serif;
       }
       html, body, #root {
         height: 100%;
-        overflow: hidden;
-      }
-      #root {
-        overflow-y: auto; 
+        margin: 0;
+        padding: 0;
       }
     </style>
 <script type="importmap">
@@ -51,24 +48,110 @@
 }
 </script>
 </head>
-  <body class="bg-slate-900 text-slate-100">
+  <body class="min-h-screen bg-slate-900 text-slate-100">
     <div id="root"></div>
-    <!-- Vite will automatically inject the correct script tag in development mode -->
-    <script type="module" src="/src/index.tsx"></script>
-    
-    <!-- Service Worker Registration (Vite will serve this from public/service-worker.js) -->
     <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/service-worker.js')
-            .then(registration => {
-              console.log('ServiceWorker registration successful with scope: ', registration.scope);
-            })
-            .catch(error => {
-              console.log('ServiceWorker registration failed: ', error);
-            });
-        });
+      // Handle client-side routing
+      const path = window.location.pathname;
+      if (path !== '/' && !path.startsWith('/assets/') && !path.startsWith('/@vite/')) {
+        window.history.replaceState({}, '', '/');
       }
+    </script>
+    
+    <!-- App entry point -->
+    <script type="module">
+      // Error handling for script loading
+      window.addEventListener('error', (event) => {
+        console.error('Script error:', event.error);
+      });
+
+      // Load the main app script
+      import('./src/index.tsx').catch(err => {
+        console.error('Failed to load application:', err);
+        document.getElementById('root').innerHTML = `
+          <div style="padding: 2rem; text-align: center;">
+            <h2>Application Error</h2>
+            <p>Failed to load the application. Please check the console for details.</p>
+            <button onclick="window.location.reload()" style="margin-top: 1rem; padding: 0.5rem 1rem; cursor: pointer;">
+              Reload Page
+            </button>
+          </div>
+        `;
+      });
+    </script>
+    <!-- Vite client for HMR in development -->
+    <script type="module" src="/@vite/client"></script>
+    
+    <!-- Register Service Worker -->
+    <script>
+      // Register service worker
+      if ('serviceWorker' in navigator) {
+        const registerServiceWorker = async () => {
+          try {
+            const registration = await navigator.serviceWorker.register('/service-worker.js', {
+              scope: '/',
+              type: 'module'
+            });
+            
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            
+            // Check for updates
+            registration.addEventListener('updatefound', () => {
+              const newWorker = registration.installing;
+              if (newWorker) {
+                newWorker.addEventListener('statechange', () => {
+                  if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    console.log('New content is available; please refresh.');
+                    // You can add a UI notification here to inform the user
+                    if (window.confirm('New version available! Reload to update?')) {
+                      window.location.reload();
+                    }
+                  }
+                });
+              }
+            });
+            
+            // Check for updates every hour
+            setInterval(() => {
+              registration.update().catch(console.error);
+            }, 60 * 60 * 1000);
+            
+          } catch (error) {
+            console.error('ServiceWorker registration failed: ', error);
+          }
+        };
+        
+        // Handle controller change (when a new service worker takes over)
+        let refreshing = false;
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (!refreshing) {
+            window.location.reload();
+            refreshing = true;
+          }
+        });
+        
+        // Register service worker when DOM is loaded
+        if (document.readyState === 'complete') {
+          registerServiceWorker();
+        } else {
+          window.addEventListener('load', registerServiceWorker);
+        }
+      }
+      
+      // Handle offline/online state changes
+      function updateOnlineStatus() {
+        const status = document.getElementById('online-status');
+        if (status) {
+          status.textContent = navigator.onLine ? 'Online' : 'Offline';
+          status.className = navigator.onLine ? 'text-green-500' : 'text-red-500';
+        }
+      }
+      
+      window.addEventListener('online', updateOnlineStatus);
+      window.addEventListener('offline', updateOnlineStatus);
+      
+      // Initial check
+      updateOnlineStatus();
     </script>
   </body>
 </html>

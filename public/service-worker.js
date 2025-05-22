@@ -1,37 +1,108 @@
-const CACHE_NAME = 'ai-eisenhower-matrix-v2'; // Incremented cache version
+const CACHE_NAME = 'ai-eisenhower-matrix-v3';
+const OFFLINE_PAGE = '/offline.html';
 
-// This list will be mostly populated by Vite's PWA plugin in a more advanced setup.
-// For a manual setup, you'd add paths to your JS/CSS bundles from the 'www/assets' directory.
-const CORE_ASSETS_TO_CACHE = [
-  '/', // Alias for index.html
+// Core assets that should be cached on install
+const CORE_ASSETS = [
+  '/',
   '/index.html',
-  '/manifest.json', // Should be in public directory
-  '/assets/icons/icon-192x192.png', // Should be in public/assets/icons
-  '/assets/icons/icon-512x512.png'  // Should be in public/assets/icons
-  // Placeholder for Vite's output - inspect your 'www' folder after build
-  // For example:
-  // '/assets/index.abcdef.js',
-  // '/assets/index.123456.css',
-  // '/assets/vendor.fedcba.js'
+  '/manifest.webmanifest',
+  '/assets/icons/icon-192x192.png',
+  '/assets/icons/icon-512x512.png'
 ];
 
-const EXTERNAL_ASSETS_TO_CACHE_OPAQULY = [
-  // Tailwind and Google Fonts are fetched from CDNs
-  // Caching them with 'no-cors' provides basic offline fallback but is opaque.
-  // Better: Bundle Tailwind, or use a more sophisticated caching strategy for fonts.
-  'https://cdn.tailwindcss.com',
-  'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
+// External resources that can be cached
+const EXTERNAL_RESOURCES = [
+  'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap',
+  'https://fonts.gstatic.com/s/inter/'
 ];
 
+// Helper function to cache resources
+const cacheResources = async (cache, resources) => {
+  try {
+    await cache.addAll(resources);
+    console.log('[ServiceWorker] Cached resources:', resources);
+  } catch (error) {
+    console.error('[ServiceWorker] Cache addAll error:', error);
+  }
+};
+
+// Install event - cache core assets
 self.addEventListener('install', event => {
   console.log('[ServiceWorker] Install event');
+  
+  // Skip waiting to activate the new service worker immediately
+  self.skipWaiting();
+  
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then(async (cache) => {
+      .then(cache => {
         console.log('[ServiceWorker] Caching core application shell assets');
-        // Cache essential local assets. If any of these fail, the SW install will fail.
-        await cache.addAll(CORE_ASSETS_TO_CACHE).catch(error => {
-            console.error('[ServiceWorker] Failed to cache one or more core assets during install:', error);
+        return cacheResources(cache, CORE_ASSETS);
+      })
+  );
+});
+
+// Activate event - clean up old caches
+self.addEventListener('activate', event => {
+  console.log('[ServiceWorker] Activate event');
+  
+  // Remove previous cached data if cache name changes
+  event.waitUntil(
+    caches.keys().then(cacheNames => {
+      return Promise.all(
+        cacheNames.map(cacheName => {
+          if (cacheName !== CACHE_NAME) {
+            console.log('[ServiceWorker] Removing old cache:', cacheName);
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+    .then(() => {
+      // Take control of all clients immediately
+      return self.clients.claim();
+    })
+  );
+});
+
+// Fetch event - handle network requests
+self.addEventListener('fetch', event => {
+  // Skip non-GET requests
+  if (event.request.method !== 'GET') {
+    return;
+  }
+
+  // Skip cross-origin requests
+  if (!event.request.url.startsWith(self.location.origin)) {
+    return;
+  }
+
+  // For navigation requests, respond with the offline page if offline
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request).catch(() => caches.match(OFFLINE_PAGE))
+    );
+    return;
+  }
+
+  // For other requests, try network first, then cache
+  event.respondWith(
+    fetch(event.request)
+      .then(response => {
+        // If the response is good, cache it and return it
+        if (response && response.status === 200) {
+          const responseToCache = response.clone();
+          caches.open(CACHE_NAME)
+            .then(cache => cache.put(event.request, responseToCache));
+        }
+        return response;
+      })
+      .catch(() => {
+        // If network fails, try to get it from the cache
+        return caches.match(event.request);
+      })
+  );
+});
             throw error; // Propagate error to fail SW install if core assets fail
         });
 
@@ -117,32 +188,83 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // For other assets (CSS, JS, images), use Cache First strategy
+  // For other assets  // For all other requests, use network first, then cache
   event.respondWith(
-    caches.match(event.request)
-      .then(cachedResponse => {
-        if (cachedResponse) {
-          // console.log(`[ServiceWorker] Serving from cache: ${event.request.url}`);
-          return cachedResponse;
+    fetch(event.request)
+      .then((response) => {
+        // If the response is good, clone it and store it in the cache
+        if (response.status === 200) {
+          const responseToCache = response.clone();
+          caches.open(RUNTIME_CACHE).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
         }
-
-        // console.log(`[ServiceWorker] Not in cache, fetching: ${event.request.url}`);
-        return fetch(event.request).then(
-          networkResponse => {
-            if (networkResponse && networkResponse.ok) {
-              const responseToCache = networkResponse.clone();
-              caches.open(CACHE_NAME)
-                .then(cache => {
-                  cache.put(event.request, responseToCache);
-                });
-            }
-            return networkResponse;
-          }
-        );
+        return response;
       })
-      .catch(error => {
-        console.error('[ServiceWorker] Fetch error:', error);
-        // You could return a generic fallback response or error page here
+      .catch(() => {
+        // If network fails, try to get from cache
+        return caches.match(event.request).then((response) => {
+          return response || new Response('Offline', {
+            status: 503,
+            statusText: 'Offline',
+            headers: { 'Content-Type': 'text/plain' }
+          });
+        });
+      })
+  );
+});
+
+// Listen for messages from the main thread
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+  
+  if (event.data && event.data.type === 'SYNC_DATA') {
+    // Handle data sync when coming back online
+    console.log('Syncing data...');
+    // Add your data sync logic here
+  }
+});
+
+// Handle push notifications
+self.addEventListener('push', (event) => {
+  const title = 'AI Eisenhower Matrix';
+  const options = {
+    body: event.data?.text() || 'You have new updates!',
+    icon: '/assets/icons/icon-192x192.png',
+    badge: '/assets/icons/icon-72x72.png',
+    vibrate: [100, 50, 100],
+    data: {
+      dateOfArrival: Date.now(),
+      primaryKey: 1
+    }
+  };
+
+  event.waitUntil(
+    self.registration.showNotification(title, options)
+  );
+});
+
+// Handle notification clicks
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  
+  // Handle the notification click
+  event.waitUntil(
+    clients.matchAll({ type: 'window' })
+      .then((clientList) => {
+        // If a window is already open, focus it
+        for (const client of clientList) {
+          if (client.url === '/' && 'focus' in client) {
+            return client.focus();
+          }
+        }
+        
+        // Otherwise, open a new window
+        if (clients.openWindow) {
+          return clients.openWindow('/');
+        }
         // For example: return new Response("Network error occurred", { status: 503, statusText: "Service Unavailable" });
       })
   );
