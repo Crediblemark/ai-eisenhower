@@ -5,17 +5,38 @@ import { resolve } from 'path';
 
 export default defineConfig({
   root: '.',
-  base: '/',
+  base: './',
   publicDir: 'public',
+  css: {
+    postcss: './postcss.config.js'
+  },
   
   plugins: [
     react(),
     VitePWA({
-      registerType: 'autoUpdate',
-      srcDir: 'public',
-      filename: 'service-worker.js',
+      registerType: 'prompt',
+      srcDir: 'src',
+      filename: 'sw.js',
       strategies: 'generateSW',
+      injectRegister: 'auto',
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
+      workbox: {
+        skipWaiting: true,
+        clientsClaim: true,
+        maximumFileSizeToCacheInBytes: 5000000,
+        globPatterns: ['**/*.{js,css,html,png,jpg,jpeg,svg,gif,ico,webp,woff,woff2,ttf,eot}'],
+        runtimeCaching: [
+          {
+            urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'google-fonts-cache',
+              expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 365 },
+              cacheableResponse: { statuses: [0, 200] }
+            }
+          }
+        ]
+      },
       manifest: {
         name: 'AI Eisenhower Matrix',
         short_name: 'EisenhowerAI',
@@ -39,25 +60,7 @@ export default defineConfig({
           }
         ]
       },
-      workbox: {
-        globPatterns: ['**/*.{js,css,html,png,jpg,jpeg,svg,gif,ico,webp,woff,woff2,ttf,eot}'],
-        runtimeCaching: [
-          {
-            urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'google-fonts-cache',
-              expiration: {
-                maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 365 // 1 year
-              },
-              cacheableResponse: {
-                statuses: [0, 200]
-              }
-            }
-          }
-        ]
-      },
+
       devOptions: {
         enabled: true
       }

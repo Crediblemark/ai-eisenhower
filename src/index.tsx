@@ -9,16 +9,8 @@ const registerServiceWorker = async () => {
     return;
   }
 
-  // Unregister any existing service workers first
-  const registrations = await navigator.serviceWorker.getRegistrations();
-  for (const registration of registrations) {
-    await registration.unregister();
-    console.log('Unregistered old service worker');
-  }
-
   try {
-    const registration = await navigator.serviceWorker.register('/service-worker.js', {
-      type: 'module',
+    const registration = await navigator.serviceWorker.register('/sw.js', {
       updateViaCache: 'none',
       scope: '/'
     });
