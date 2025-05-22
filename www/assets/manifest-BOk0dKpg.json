@@ -1,0 +1,25 @@
+{
+  "name": "AI Eisenhower Matrix",
+  "short_name": "EisenhowerAI",
+  "description": "Prioritize your tasks effectively with the Eisenhower Matrix, supercharged by Gemini AI.",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#0ea5e9",
+  "scope": "/",
+  "orientation": "portrait"
+}

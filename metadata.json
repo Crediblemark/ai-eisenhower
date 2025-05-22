@@ -1,0 +1,5 @@
+{
+  "name": "AI Eisenhower Matrix Assistant",
+  "description": "Prioritize your tasks effectively with the Eisenhower Matrix, supercharged by Gemini AI to act as your personal productivity manager. Add tasks, get AI-driven categorization and advice, and organize your workload into 'Do', 'Schedule', 'Delegate', or 'Delete' quadrants.",
+  "requestFramePermissions": []
+}

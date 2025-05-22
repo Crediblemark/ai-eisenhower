@@ -1,0 +1,1699 @@
+Skip to content
+
+## Navigation Menu
+
+[Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fgoogleapis%2Fjs-genai)
+- 
+
+        Product
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            GitHub Copilot
+
+        Write better code with AI
+
+
+
+
+
+
+
+
+
+
+
+
+            GitHub Models
+
+                New
+
+
+        Manage and compare prompts
+
+
+
+
+
+
+
+
+
+
+
+
+            GitHub Advanced Security
+
+        Find and fix vulnerabilities
+
+
+
+
+
+
+
+
+
+
+
+
+            Actions
+
+        Automate any workflow
+
+
+
+
+
+
+
+
+
+
+
+
+            Codespaces
+
+        Instant dev environments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Issues
+
+        Plan and track work
+
+
+
+
+
+
+
+
+
+
+
+
+            Code Review
+
+        Manage code changes
+
+
+
+
+
+
+
+
+
+
+
+
+            Discussions
+
+        Collaborate outside of code
+
+
+
+
+
+
+
+
+
+
+
+
+            Code Search
+
+        Find more, search less
+
+
+
+
+
+
+
+
+
+
+                    Explore
+
+
+
+
+      Why GitHub
+
+
+
+
+
+
+      All features
+
+
+
+
+
+
+      Documentation
+
+
+
+
+
+
+
+
+      GitHub Skills
+
+
+
+
+
+
+
+  [Blog](https://github.blog)
+
+
+
+
+
+
+
+- 
+  [GitHub Copilot
+
+        Write better code with AI](https://github.com/features/copilot)
+- 
+  [GitHub Models
+
+                New
+
+
+        Manage and compare prompts](https://github.com/features/models)
+- 
+  [GitHub Advanced Security
+
+        Find and fix vulnerabilities](https://github.com/security/advanced-security)
+- 
+  [Actions
+
+        Automate any workflow](https://github.com/features/actions)
+- 
+  [Codespaces
+
+        Instant dev environments](https://github.com/features/codespaces)
+- 
+  [Issues
+
+        Plan and track work](https://github.com/features/issues)
+- 
+  [Code Review
+
+        Manage code changes](https://github.com/features/code-review)
+- 
+  [Discussions
+
+        Collaborate outside of code](https://github.com/features/discussions)
+- 
+  [Code Search
+
+        Find more, search less](https://github.com/features/code-search)
+- 
+  [Why GitHub](https://github.com/why-github)
+- 
+  [All features](https://github.com/features)
+- 
+  [Documentation](https://docs.github.com)
+- 
+  [GitHub Skills](https://skills.github.com)
+- 
+  [Blog](https://github.blog)
+- 
+
+        Solutions
+
+
+
+
+
+
+
+
+                    By company size
+
+
+
+
+      Enterprises
+
+
+
+
+
+
+      Small and medium teams
+
+
+
+
+
+
+      Startups
+
+
+
+
+
+
+      Nonprofits
+
+
+
+
+
+
+
+                    By use case
+
+
+
+
+      DevSecOps
+
+
+
+
+
+
+      DevOps
+
+
+
+
+
+
+      CI/CD
+
+
+
+
+
+
+      View all use cases
+
+
+
+
+
+
+
+
+
+                    By industry
+
+
+
+
+      Healthcare
+
+
+
+
+
+
+      Financial services
+
+
+
+
+
+
+      Manufacturing
+
+
+
+
+
+
+      Government
+
+
+
+
+
+
+      View all industries
+
+
+
+
+
+
+
+
+
+            [View all solutions](https://github.com/solutions)         
+
+
+- 
+  [Enterprises](https://github.com/enterprise)
+- 
+  [Small and medium teams](https://github.com/team)
+- 
+  [Startups](https://github.com/enterprise/startups)
+- 
+  [Nonprofits](https://github.com/solutions/industry/nonprofits)
+- 
+  [DevSecOps](https://github.com/solutions/use-case/devsecops)
+- 
+  [DevOps](https://github.com/solutions/use-case/devops)
+- 
+  [CI/CD](https://github.com/solutions/use-case/ci-cd)
+- 
+  [View all use cases](https://github.com/solutions/use-case)
+- 
+  [Healthcare](https://github.com/solutions/industry/healthcare)
+- 
+  [Financial services](https://github.com/solutions/industry/financial-services)
+- 
+  [Manufacturing](https://github.com/solutions/industry/manufacturing)
+- 
+  [Government](https://github.com/solutions/industry/government)
+- 
+  [View all industries](https://github.com/solutions/industry)
+- 
+
+        Resources
+
+
+
+
+
+
+
+
+                    Topics
+
+
+
+
+      AI
+
+
+
+
+
+
+      DevOps
+
+
+
+
+
+
+      Security
+
+
+
+
+
+
+      Software Development
+
+
+
+
+
+
+      View all
+
+
+
+
+
+
+
+
+
+                    Explore
+
+
+
+
+      Learning Pathways
+
+
+
+
+
+
+
+
+      Events & Webinars
+
+
+
+
+
+
+
+
+      Ebooks & Whitepapers
+
+
+
+
+
+
+      Customer Stories
+
+
+
+
+
+
+      Partners
+
+
+
+
+
+
+
+  [Executive Insights](https://github.com/solutions/executive-insights)
+
+
+
+
+
+
+
+- 
+  [AI](https://github.com/resources/articles/ai)
+- 
+  [DevOps](https://github.com/resources/articles/devops)
+- 
+  [Security](https://github.com/resources/articles/security)
+- 
+  [Software Development](https://github.com/resources/articles/software-development)
+- 
+  [View all](https://github.com/resources/articles)
+- 
+  [Learning Pathways](https://resources.github.com/learn/pathways)
+- 
+  [Events & Webinars](https://resources.github.com)
+- 
+  [Ebooks & Whitepapers](https://github.com/resources/whitepapers)
+- 
+  [Customer Stories](https://github.com/customer-stories)
+- 
+  [Partners](https://partner.github.com)
+-
+
+## Navigation Menu
+
+[Executive Insights](https://github.com/solutions/executive-insights)
+- 
+
+        Open Source
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            GitHub Sponsors
+
+        Fund open source developers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            The ReadME Project
+
+        GitHub community articles
+
+
+
+
+
+
+
+
+                    Repositories
+
+
+
+
+      Topics
+
+
+
+
+
+
+      Trending
+
+
+
+
+
+  [Collections](https://github.com/collections)
+
+
+
+
+
+
+
+- 
+  [GitHub Sponsors
+
+        Fund open source developers](https://github.com/sponsors)
+- 
+  [The ReadME Project
+
+        GitHub community articles](https://github.com/readme)
+- 
+  [Topics](https://github.com/topics)
+- 
+  [Trending](https://github.com/trending)
+- 
+  [Collections](https://github.com/collections)
+- 
+
+        Enterprise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Enterprise platform
+
+        AI-powered developer platform
+
+
+
+
+
+
+
+
+                    Available add-ons
+
+
+
+
+
+
+
+
+
+            GitHub Advanced Security
+
+        Enterprise-grade security features
+
+
+
+
+
+
+
+
+
+
+
+
+            Copilot for business
+
+        Enterprise-grade AI features
+
+
+
+
+
+
+  [Premium Support
+
+        Enterprise-grade 24/7 support](https://github.com/premium-support)
+
+
+
+
+
+
+
+- 
+  [Enterprise platform
+
+        AI-powered developer platform](https://github.com/enterprise)
+- 
+  [GitHub Advanced Security
+
+        Enterprise-grade security features](https://github.com/security/advanced-security)
+- 
+  [Copilot for business
+
+        Enterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+- 
+  [Premium Support
+
+        Enterprise-grade 24/7 support](https://github.com/premium-support)
+- 
+    [Pricing](https://github.com/pricing)
+
+- 
+  [GitHub Copilot
+
+        Write better code with AI](https://github.com/features/copilot)
+- 
+  [GitHub Models
+
+                New
+
+
+        Manage and compare prompts](https://github.com/features/models)
+- 
+  [GitHub Advanced Security
+
+        Find and fix vulnerabilities](https://github.com/security/advanced-security)
+- 
+  [Actions
+
+        Automate any workflow](https://github.com/features/actions)
+- 
+  [Codespaces
+
+        Instant dev environments](https://github.com/features/codespaces)
+[GitHub Copilot
+
+        Write better code with AI](https://github.com/features/copilot)
+[GitHub Models
+
+                New
+
+
+        Manage and compare prompts](https://github.com/features/models)
+[GitHub Advanced Security
+
+        Find and fix vulnerabilities](https://github.com/security/advanced-security)
+[Actions
+
+        Automate any workflow](https://github.com/features/actions)
+[Codespaces
+
+        Instant dev environments](https://github.com/features/codespaces)
+- 
+  [Issues
+
+        Plan and track work](https://github.com/features/issues)
+- 
+  [Code Review
+
+        Manage code changes](https://github.com/features/code-review)
+- 
+  [Discussions
+
+        Collaborate outside of code](https://github.com/features/discussions)
+- 
+  [Code Search
+
+        Find more, search less](https://github.com/features/code-search)
+[Issues
+
+        Plan and track work](https://github.com/features/issues)
+[Code Review
+
+        Manage code changes](https://github.com/features/code-review)
+[Discussions
+
+        Collaborate outside of code](https://github.com/features/discussions)
+[Code Search
+
+        Find more, search less](https://github.com/features/code-search)
+- 
+  [Why GitHub](https://github.com/why-github)
+- 
+  [All features](https://github.com/features)
+- 
+  [Documentation](https://docs.github.com)
+- 
+  [GitHub Skills](https://skills.github.com)
+- 
+  [Blog](https://github.blog)
+[Why GitHub](https://github.com/why-github)
+[All features](https://github.com/features)
+[Documentation](https://docs.github.com)
+[GitHub Skills](https://skills.github.com)
+[Blog](https://github.blog)
+- 
+  [Enterprises](https://github.com/enterprise)
+- 
+  [Small and medium teams](https://github.com/team)
+- 
+  [Startups](https://github.com/enterprise/startups)
+- 
+  [Nonprofits](https://github.com/solutions/industry/nonprofits)
+[Enterprises](https://github.com/enterprise)
+[Small and medium teams](https://github.com/team)
+[Startups](https://github.com/enterprise/startups)
+[Nonprofits](https://github.com/solutions/industry/nonprofits)
+- 
+  [DevSecOps](https://github.com/solutions/use-case/devsecops)
+- 
+  [DevOps](https://github.com/solutions/use-case/devops)
+- 
+  [CI/CD](https://github.com/solutions/use-case/ci-cd)
+- 
+  [View all use cases](https://github.com/solutions/use-case)
+[DevSecOps](https://github.com/solutions/use-case/devsecops)
+
+## Navigation Menu
+
+[DevOps](https://github.com/solutions/use-case/devops)
+[CI/CD](https://github.com/solutions/use-case/ci-cd)
+[View all use cases](https://github.com/solutions/use-case)
+- 
+  [Healthcare](https://github.com/solutions/industry/healthcare)
+- 
+  [Financial services](https://github.com/solutions/industry/financial-services)
+- 
+  [Manufacturing](https://github.com/solutions/industry/manufacturing)
+- 
+  [Government](https://github.com/solutions/industry/government)
+- 
+  [View all industries](https://github.com/solutions/industry)
+[Healthcare](https://github.com/solutions/industry/healthcare)
+[Financial services](https://github.com/solutions/industry/financial-services)
+[Manufacturing](https://github.com/solutions/industry/manufacturing)
+[Government](https://github.com/solutions/industry/government)
+[View all industries](https://github.com/solutions/industry)
+[View all solutions](https://github.com/solutions)
+- 
+  [AI](https://github.com/resources/articles/ai)
+- 
+  [DevOps](https://github.com/resources/articles/devops)
+- 
+  [Security](https://github.com/resources/articles/security)
+- 
+  [Software Development](https://github.com/resources/articles/software-development)
+- 
+  [View all](https://github.com/resources/articles)
+[AI](https://github.com/resources/articles/ai)
+[DevOps](https://github.com/resources/articles/devops)
+[Security](https://github.com/resources/articles/security)
+[Software Development](https://github.com/resources/articles/software-development)
+[View all](https://github.com/resources/articles)
+- 
+  [Learning Pathways](https://resources.github.com/learn/pathways)
+- 
+  [Events & Webinars](https://resources.github.com)
+- 
+  [Ebooks & Whitepapers](https://github.com/resources/whitepapers)
+- 
+  [Customer Stories](https://github.com/customer-stories)
+- 
+  [Partners](https://partner.github.com)
+- 
+  [Executive Insights](https://github.com/solutions/executive-insights)
+[Learning Pathways](https://resources.github.com/learn/pathways)
+[Events & Webinars](https://resources.github.com)
+[Ebooks & Whitepapers](https://github.com/resources/whitepapers)
+[Customer Stories](https://github.com/customer-stories)
+[Partners](https://partner.github.com)
+[Executive Insights](https://github.com/solutions/executive-insights)
+- 
+  [GitHub Sponsors
+
+        Fund open source developers](https://github.com/sponsors)
+[GitHub Sponsors
+
+        Fund open source developers](https://github.com/sponsors)
+- 
+  [The ReadME Project
+
+        GitHub community articles](https://github.com/readme)
+[The ReadME Project
+
+        GitHub community articles](https://github.com/readme)
+- 
+  [Topics](https://github.com/topics)
+- 
+  [Trending](https://github.com/trending)
+- 
+  [Collections](https://github.com/collections)
+[Topics](https://github.com/topics)
+[Trending](https://github.com/trending)
+[Collections](https://github.com/collections)
+- 
+  [Enterprise platform
+
+        AI-powered developer platform](https://github.com/enterprise)
+[Enterprise platform
+
+        AI-powered developer platform](https://github.com/enterprise)
+- 
+  [GitHub Advanced Security
+
+        Enterprise-grade security features](https://github.com/security/advanced-security)
+- 
+  [Copilot for business
+
+        Enterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+- 
+  [Premium Support
+
+        Enterprise-grade 24/7 support](https://github.com/premium-support)
+[GitHub Advanced Security
+
+        Enterprise-grade security features](https://github.com/security/advanced-security)
+[Copilot for business
+
+        Enterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+[Premium Support
+
+        Enterprise-grade 24/7 support](https://github.com/premium-support)
+[Pricing](https://github.com/pricing)
+
+# Search code, repositories, users, issues, pull requests...
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax)
+
+# Provide feedback
+We read every piece of feedback, and take your input very seriously.
+
+## Use saved searches to filter your results more quickly
+
+To see all available qualifiers, see our [documentation](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax).
+[Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fgoogleapis%2Fjs-genai)
+[Sign up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=googleapis%2Fjs-genai)
+[Reload](https://github.com/googleapis/js-genai)
+[Reload](https://github.com/googleapis/js-genai)
+[Reload](https://github.com/googleapis/js-genai)
+[googleapis](https://github.com/googleapis)
+[js-genai](https://github.com/googleapis/js-genai)
+- 
+            [Notifications](https://github.com/login?return_to=%2Fgoogleapis%2Fjs-genai)    You must be signed in to change notification settings
+
+
+- 
+          [Fork
+    64](https://github.com/login?return_to=%2Fgoogleapis%2Fjs-genai)
+
+- 
+
+        [Star
+          433](https://github.com/login?return_to=%2Fgoogleapis%2Fjs-genai)
+
+[Notifications](https://github.com/login?return_to=%2Fgoogleapis%2Fjs-genai)
+[Fork
+    64](https://github.com/login?return_to=%2Fgoogleapis%2Fjs-genai)
+[Star
+          433](https://github.com/login?return_to=%2Fgoogleapis%2Fjs-genai)
+TypeScript/JavaScript SDK for Gemini and Vertex AI.
+[googleapis.github.io/js-genai/](https://googleapis.github.io/js-genai/)
+
+### License
+
+[Apache-2.0 license](https://github.com/googleapis/js-genai/blob/main/LICENSE)
+[433
+          stars](https://github.com/googleapis/js-genai/stargazers)
+[64
+          forks](https://github.com/googleapis/js-genai/forks)
+[Branches](https://github.com/googleapis/js-genai/branches)
+[Tags](https://github.com/googleapis/js-genai/tags)
+[Activity](https://github.com/googleapis/js-genai/activity)
+[Star](https://github.com/login?return_to=%2Fgoogleapis%2Fjs-genai)
+[Notifications](https://github.com/login?return_to=%2Fgoogleapis%2Fjs-genai)
+- 
+  [Code](https://github.com/googleapis/js-genai)
+- 
+  [Issues
+          34](https://github.com/googleapis/js-genai/issues)
+- 
+  [Pull requests
+          44](https://github.com/googleapis/js-genai/pulls)
+- 
+  [Actions](https://github.com/googleapis/js-genai/actions)
+- 
+  [Projects
+          0](https://github.com/googleapis/js-genai/projects)
+- 
+  [Security](https://github.com/googleapis/js-genai/security)
+- 
+  [Insights](https://github.com/googleapis/js-genai/pulse)
+[Code](https://github.com/googleapis/js-genai)
+[Issues
+          34](https://github.com/googleapis/js-genai/issues)
+[Pull requests
+          44](https://github.com/googleapis/js-genai/pulls)
+[Actions](https://github.com/googleapis/js-genai/actions)
+[Projects
+          0](https://github.com/googleapis/js-genai/projects)
+[Security](https://github.com/googleapis/js-genai/security)
+[Insights](https://github.com/googleapis/js-genai/pulse)
+- 
+
+
+    [Code](https://github.com/googleapis/js-genai)
+
+
+- 
+
+
+    [Issues](https://github.com/googleapis/js-genai/issues)
+
+
+- 
+
+
+    [Pull requests](https://github.com/googleapis/js-genai/pulls)
+
+
+- 
+
+
+    [Actions](https://github.com/googleapis/js-genai/actions)
+
+
+- 
+
+
+    [Projects](https://github.com/googleapis/js-genai/projects)
+
+
+- 
+
+
+    [Security](https://github.com/googleapis/js-genai/security)
+
+
+- 
+
+
+    [Insights](https://github.com/googleapis/js-genai/pulse)
+
+
+[Code](https://github.com/googleapis/js-genai)
+[Issues](https://github.com/googleapis/js-genai/issues)
+[Pull requests](https://github.com/googleapis/js-genai/pulls)
+[Actions](https://github.com/googleapis/js-genai/actions)
+[Projects](https://github.com/googleapis/js-genai/projects)
+[Security](https://github.com/googleapis/js-genai/security)
+[Insights](https://github.com/googleapis/js-genai/pulse)
+
+# googleapis/js-genai
+
+[Branches](https://github.com/googleapis/js-genai/branches)
+[Tags](https://github.com/googleapis/js-genai/tags)
+
+## History
+[474 Commits](https://github.com/googleapis/js-genai/commits/main/)
+[.github](https://github.com/googleapis/js-genai/tree/main/.github)
+[.github](https://github.com/googleapis/js-genai/tree/main/.github)
+[api-report](https://github.com/googleapis/js-genai/tree/main/api-report)
+[api-report](https://github.com/googleapis/js-genai/tree/main/api-report)
+[docs](https://github.com/googleapis/js-genai/tree/main/docs)
+[docs](https://github.com/googleapis/js-genai/tree/main/docs)
+[node](https://github.com/googleapis/js-genai/tree/main/node)
+[node](https://github.com/googleapis/js-genai/tree/main/node)
+[scripts](https://github.com/googleapis/js-genai/tree/main/scripts)
+[scripts](https://github.com/googleapis/js-genai/tree/main/scripts)
+[sdk-samples](https://github.com/googleapis/js-genai/tree/main/sdk-samples)
+[sdk-samples](https://github.com/googleapis/js-genai/tree/main/sdk-samples)
+[src](https://github.com/googleapis/js-genai/tree/main/src)
+[src](https://github.com/googleapis/js-genai/tree/main/src)
+[test](https://github.com/googleapis/js-genai/tree/main/test)
+[test](https://github.com/googleapis/js-genai/tree/main/test)
+[web](https://github.com/googleapis/js-genai/tree/main/web)
+[web](https://github.com/googleapis/js-genai/tree/main/web)
+[.gitignore](https://github.com/googleapis/js-genai/blob/main/.gitignore)
+[.gitignore](https://github.com/googleapis/js-genai/blob/main/.gitignore)
+[.prettierignore](https://github.com/googleapis/js-genai/blob/main/.prettierignore)
+[.prettierignore](https://github.com/googleapis/js-genai/blob/main/.prettierignore)
+[.prettierrc](https://github.com/googleapis/js-genai/blob/main/.prettierrc)
+[.prettierrc](https://github.com/googleapis/js-genai/blob/main/.prettierrc)
+[.release-please-manifest.json](https://github.com/googleapis/js-genai/blob/main/.release-please-manifest.json)
+[.release-please-manifest.json](https://github.com/googleapis/js-genai/blob/main/.release-please-manifest.json)
+[CHANGELOG.md](https://github.com/googleapis/js-genai/blob/main/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/googleapis/js-genai/blob/main/CHANGELOG.md)
+[CONTRIBUTING.md](https://github.com/googleapis/js-genai/blob/main/CONTRIBUTING.md)
+[CONTRIBUTING.md](https://github.com/googleapis/js-genai/blob/main/CONTRIBUTING.md)
+[LICENSE](https://github.com/googleapis/js-genai/blob/main/LICENSE)
+[LICENSE](https://github.com/googleapis/js-genai/blob/main/LICENSE)
+[README.md](https://github.com/googleapis/js-genai/blob/main/README.md)
+[README.md](https://github.com/googleapis/js-genai/blob/main/README.md)
+[api-extractor.json](https://github.com/googleapis/js-genai/blob/main/api-extractor.json)
+[api-extractor.json](https://github.com/googleapis/js-genai/blob/main/api-extractor.json)
+[api-extractor.node.json](https://github.com/googleapis/js-genai/blob/main/api-extractor.node.json)
+[api-extractor.node.json](https://github.com/googleapis/js-genai/blob/main/api-extractor.node.json)
+[api-extractor.web.json](https://github.com/googleapis/js-genai/blob/main/api-extractor.web.json)
+[api-extractor.web.json](https://github.com/googleapis/js-genai/blob/main/api-extractor.web.json)
+[eslint.config.mjs](https://github.com/googleapis/js-genai/blob/main/eslint.config.mjs)
+[eslint.config.mjs](https://github.com/googleapis/js-genai/blob/main/eslint.config.mjs)
+[package-lock.json](https://github.com/googleapis/js-genai/blob/main/package-lock.json)
+[package-lock.json](https://github.com/googleapis/js-genai/blob/main/package-lock.json)
+[package.json](https://github.com/googleapis/js-genai/blob/main/package.json)
+[package.json](https://github.com/googleapis/js-genai/blob/main/package.json)
+[release-please-config.json](https://github.com/googleapis/js-genai/blob/main/release-please-config.json)
+[release-please-config.json](https://github.com/googleapis/js-genai/blob/main/release-please-config.json)
+[rollup.config.mjs](https://github.com/googleapis/js-genai/blob/main/rollup.config.mjs)
+[rollup.config.mjs](https://github.com/googleapis/js-genai/blob/main/rollup.config.mjs)
+[tsconfig.json](https://github.com/googleapis/js-genai/blob/main/tsconfig.json)
+[tsconfig.json](https://github.com/googleapis/js-genai/blob/main/tsconfig.json)
+[typedoc.json](https://github.com/googleapis/js-genai/blob/main/typedoc.json)
+[typedoc.json](https://github.com/googleapis/js-genai/blob/main/typedoc.json)
+
+## Repository files navigation
+- README
+- Code of conduct
+- Apache-2.0 license
+- Security
+README
+Code of conduct
+Apache-2.0 license
+Security
+
+# Google Gen AI SDK for TypeScript and JavaScript
+
+Documentation: [https://googleapis.github.io/js-genai/](https://googleapis.github.io/js-genai/)
+The Google Gen AI JavaScript SDK is designed for
+TypeScript and JavaScript developers to build applications powered by Gemini. The SDK
+supports both the Gemini Developer API
+and [Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/overview).
+The Google Gen AI SDK is designed to work with Gemini 2.0 features.
+Caution
+API Key Security: Avoid exposing API keys in client-side code.
+Use server-side implementations in production environments.
+
+## Prerequisites
+- Node.js version 18 or later
+
+## Installation
+To install the SDK, run the following command:
+
+```
+npm install @google/genai
+```
+
+## Quickstart
+The simplest way to get started is to using an API key from
+[Google AI Studio](https://aistudio.google.com/apikey):
+
+```
+import {GoogleGenAI} from '@google/genai';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+
+const ai = new GoogleGenAI({apiKey: GEMINI_API_KEY});
+
+async function main() {
+  const response = await ai.models.generateContent({
+    model: 'gemini-2.0-flash-001',
+    contents: 'Why is the sky blue?',
+  });
+  console.log(response.text);
+}
+
+main();
+```
+
+## Initialization
+The Google Gen AI SDK provides support for both the
+Google AI Studio and
+[Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/overview)
+implementations of the Gemini API.
+
+### Gemini Developer API
+For server-side applications, initialize using an API key, which can
+be acquired from [Google AI Studio](https://aistudio.google.com/apikey):
+
+```
+import { GoogleGenAI } from '@google/genai';
+const ai = new GoogleGenAI({apiKey: 'GEMINI_API_KEY'});
+```
+
+
+#### Browser
+Caution
+API Key Security: Avoid exposing API keys in client-side code.
+Use server-side implementations in production environments.
+In the browser the initialization code is identical:
+
+```
+import { GoogleGenAI } from '@google/genai';
+const ai = new GoogleGenAI({apiKey: 'GEMINI_API_KEY'});
+```
+
+### Vertex AI
+Sample code for VertexAI initialization:
+
+```
+import { GoogleGenAI } from '@google/genai';
+
+const ai = new GoogleGenAI({
+    vertexai: true,
+    project: 'your_project',
+    location: 'your_location',
+});
+```
+
+## API Selection
+By default, the SDK uses the beta API endpoints provided by Google to support
+preview features in the APIs. The stable API endpoints can be selected by
+setting the API version to v1.
+
+```
+v1
+```
+
+To set the API version use apiVersion. For example, to set the API version to
+v1 for Vertex AI:
+
+```
+apiVersion
+```
+
+
+```
+v1
+```
+
+
+```
+const ai = new GoogleGenAI({
+    vertexai: true,
+    project: 'your_project',
+    location: 'your_location',
+    apiVersion: 'v1'
+});
+```
+
+To set the API version to v1alpha for the Gemini Developer API:
+
+```
+v1alpha
+```
+
+
+```
+const ai = new GoogleGenAI({
+    apiKey: 'GEMINI_API_KEY',
+    apiVersion: 'v1alpha'
+});
+```
+
+## GoogleGenAI overview
+All API features are accessed through an instance of the GoogleGenAI classes.
+The submodules bundle together related API methods:
+
+```
+GoogleGenAI
+```
+
+- [ai.models](https://googleapis.github.io/js-genai/main/classes/models.Models.html):
+Use models to query models (generateContent, generateImages, ...), or
+examine their metadata.
+- [ai.caches](https://googleapis.github.io/js-genai/main/classes/caches.Caches.html):
+Create and manage caches to reduce costs when repeatedly using the same
+large prompt prefix.
+- [ai.chats](https://googleapis.github.io/js-genai/main/classes/chats.Chats.html):
+Create local stateful chat objects to simplify multi turn interactions.
+- [ai.files](https://googleapis.github.io/js-genai/main/classes/files.Files.html):
+Upload files to the API and reference them in your prompts.
+This reduces bandwidth if you use a file many times, and handles files too
+large to fit inline with your prompt.
+- [ai.live](https://googleapis.github.io/js-genai/main/classes/live.Live.html):
+Start a live session for real time interaction, allows text + audio + video
+input, and text or audio output.
+[ai.models](https://googleapis.github.io/js-genai/main/classes/models.Models.html)
+
+```
+ai.models
+```
+
+
+```
+models
+```
+
+
+```
+generateContent
+```
+
+
+```
+generateImages
+```
+
+[ai.caches](https://googleapis.github.io/js-genai/main/classes/caches.Caches.html)
+
+```
+ai.caches
+```
+
+
+```
+caches
+```
+
+[ai.chats](https://googleapis.github.io/js-genai/main/classes/chats.Chats.html)
+
+```
+ai.chats
+```
+
+
+```
+chat
+```
+
+[ai.files](https://googleapis.github.io/js-genai/main/classes/files.Files.html)
+
+```
+ai.files
+```
+
+
+```
+files
+```
+
+[ai.live](https://googleapis.github.io/js-genai/main/classes/live.Live.html)
+
+```
+ai.live
+```
+
+
+```
+live
+```
+
+## Samples
+More samples can be found in the
+[github samples directory](https://github.com/googleapis/js-genai/tree/main/sdk-samples).
+
+### Streaming
+For quicker, more responsive API interactions use the generateContentStream
+method which yields chunks as they're generated:
+
+```
+generateContentStream
+```
+
+
+```
+import {GoogleGenAI} from '@google/genai';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+
+const ai = new GoogleGenAI({apiKey: GEMINI_API_KEY});
+
+async function main() {
+  const response = await ai.models.generateContentStream({
+    model: 'gemini-2.0-flash-001',
+    contents: 'Write a 100-word poem.',
+  });
+  for await (const chunk of response) {
+    console.log(chunk.text);
+  }
+}
+
+main();
+```
+
+### Function Calling
+To let Gemini to interact with external systems, you can provide provide
+functionDeclaration objects as tools. To use these tools it's a 4 step
+
+```
+functionDeclaration
+```
+
+
+```
+tools
+```
+
+1. Declare the function name, description, and parameters
+2. Call generateContent with function calling enabled
+3. Use the returned FunctionCall parameters to call your actual function
+4. Send the result back to the model (with history, easier in ai.chat)
+as a FunctionResponse
+
+```
+generateContent
+```
+
+
+```
+FunctionCall
+```
+
+
+```
+ai.chat
+```
+
+
+```
+FunctionResponse
+```
+
+
+```
+import {GoogleGenAI, FunctionCallingConfigMode, FunctionDeclaration, Type} from '@google/genai';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+
+async function main() {
+  const controlLightDeclaration: FunctionDeclaration = {
+    name: 'controlLight',
+    parameters: {
+      type: Type.OBJECT,
+      description: 'Set the brightness and color temperature of a room light.',
+      properties: {
+        brightness: {
+          type: Type.NUMBER,
+          description:
+              'Light level from 0 to 100. Zero is off and 100 is full brightness.',
+        },
+        colorTemperature: {
+          type: Type.STRING,
+          description:
+              'Color temperature of the light fixture which can be `daylight`, `cool`, or `warm`.',
+        },
+      },
+      required: ['brightness', 'colorTemperature'],
+    },
+  };
+
+  const ai = new GoogleGenAI({apiKey: GEMINI_API_KEY});
+  const response = await ai.models.generateContent({
+    model: 'gemini-2.0-flash-001',
+    contents: 'Dim the lights so the room feels cozy and warm.',
+    config: {
+      toolConfig: {
+        functionCallingConfig: {
+          // Force it to call any function
+          mode: FunctionCallingConfigMode.ANY,
+          allowedFunctionNames: ['controlLight'],
+        }
+      },
+      tools: [{functionDeclarations: [controlLightDeclaration]}]
+    }
+  });
+
+  console.log(response.functionCalls);
+}
+
+main();
+```
+
+### Generate Content
+#### How to structure contents argument for generateContent
+
+```
+contents
+```
+
+
+```
+generateContent
+```
+
+The SDK allows you to specify the following types in the contents parameter:
+
+```
+contents
+```
+
+
+#### Content
+- Content: The SDK will wrap the singular Content instance in an array which
+contains only the given content instance
+- Content[]: No transformation happens
+
+```
+Content
+```
+
+
+```
+Content
+```
+
+
+```
+Content[]
+```
+
+
+#### Part
+Parts will be aggregated on a singular Content, with role 'user'.
+- Part | string: The SDK will wrap the string or Part in a Content
+instance with role 'user'.
+- Part[] | string[]: The SDK will wrap the full provided list into a single
+Content with role 'user'.
+
+```
+Part | string
+```
+
+
+```
+string
+```
+
+
+```
+Part
+```
+
+
+```
+Content
+```
+
+
+```
+Part[] | string[]
+```
+
+
+```
+Content
+```
+
+NOTE: This doesn't apply to FunctionCall and FunctionResponse parts,
+if you are specifying those, you need to explicitly provide the full
+Content[] structure making it explicit which Parts are 'spoken' by the model,
+or the user. The SDK will throw an exception if you try this.
+
+```
+FunctionCall
+```
+
+
+```
+FunctionResponse
+```
+
+
+```
+Content[]
+```
+
+## How is this different from the other Google AI SDKs
+This SDK (@google/genai) is Google Deepmind’s "vanilla" SDK for its generative
+AI offerings, and is where Google Deepmind adds new AI features.
+
+```
+@google/genai
+```
+
+Models hosted either on the Vertex AI platform or the [Gemini Developer platform](https://ai.google.dev/gemini-api/docs) are accessible through this SDK.
+Other SDKs may be offering additional AI frameworks on top of this SDK, or may
+be targeting specific project environments (like Firebase).
+The @google/generative_language and @google-cloud/vertexai SDKs are previous
+iterations of this SDK and are no longer receiving new Gemini 2.0+ features.
+
+```
+@google/generative_language
+```
+
+
+```
+@google-cloud/vertexai
+```
+
+## About
+TypeScript/JavaScript SDK for Gemini and Vertex AI.
+[googleapis.github.io/js-genai/](https://googleapis.github.io/js-genai/)
+
+### Resources
+Readme
+
+### License
+Apache-2.0 license
+
+### Code of conduct
+Code of conduct
+
+### Security policy
+Security policy
+[Activity](https://github.com/googleapis/js-genai/activity)
+[Custom properties](https://github.com/googleapis/js-genai/custom-properties)
+
+### Stars
+[433
+      stars](https://github.com/googleapis/js-genai/stargazers)
+
+### Watchers
+[17
+      watching](https://github.com/googleapis/js-genai/watchers)
+
+### Forks
+[64
+      forks](https://github.com/googleapis/js-genai/forks)
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fgoogleapis%2Fjs-genai&report=googleapis+%28user%29)
+
+## [Releases
+18](https://github.com/googleapis/js-genai/releases)
+[Releases
+      18](https://github.com/googleapis/js-genai/releases)
+[v1.0.1
+
+          Latest
+
+      May 22, 2025](https://github.com/googleapis/js-genai/releases/tag/v1.0.1)
+[+ 17 releases](https://github.com/googleapis/js-genai/releases)
+
+## [Used by 7.2k](https://github.com/googleapis/js-genai/network/dependents)
+[Used by 7.2k](https://github.com/googleapis/js-genai/network/dependents)
+[+ 7,187](https://github.com/googleapis/js-genai/network/dependents)
+
+## [Contributors
+22](https://github.com/googleapis/js-genai/graphs/contributors)
+[Contributors
+      22](https://github.com/googleapis/js-genai/graphs/contributors)
+[+ 8 contributors](https://github.com/googleapis/js-genai/graphs/contributors)
+
+## Languages
+- 
+        [TypeScript
+          99.1%](https://github.com/googleapis/js-genai/search?l=typescript)
+
+- 
+
+
+
+
+        Other
+        0.9%
+
+
+[TypeScript
+          99.1%](https://github.com/googleapis/js-genai/search?l=typescript)
+
+### Footer navigation
+
+- 
+            [Terms](https://docs.github.com/site-policy/github-terms/github-terms-of-service)
+
+- 
+            [Privacy](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)
+
+- 
+            [Security](https://github.com/security)
+
+- 
+            [Status](https://www.githubstatus.com/)
+
+- 
+            [Docs](https://docs.github.com/)
+
+- 
+            [Contact](https://support.github.com?tags=dotcom-footer)
+
+- 
+
+
+      Manage cookies
+
+
+
+- 
+
+
+      Do not share my personal information
+
+
+
+[Terms](https://docs.github.com/site-policy/github-terms/github-terms-of-service)
+[Privacy](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)
+[Security](https://github.com/security)
+[Status](https://www.githubstatus.com/)
+[Docs](https://docs.github.com/)
+[Contact](https://support.github.com?tags=dotcom-footer)

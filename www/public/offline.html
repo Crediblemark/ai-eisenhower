@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - AI Eisenhower Matrix</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      background-color: #f3f4f6;
+      color: #1f2937;
+    }
+    .container {
+      max-width: 500px;
+      padding: 2rem;
+      background: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    h1 {
+      color: #0ea5e9;
+      margin-top: 0;
+    }
+    p {
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+    .emoji {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+<link rel="manifest" href="./manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="./registerSW.js"></script></head>
+<body>
+  <div class="container">
+    <div class="emoji">📶</div>
+    <h1>You're Offline</h1>
+    <p>It looks like you're not connected to the internet. Please check your connection and try again.</p>
+    <p>Don't worry, your tasks are safe and will sync when you're back online.</p>
+    <button onclick="window.location.reload()">Try Again</button>
+  </div>
+</body>
+</html>
